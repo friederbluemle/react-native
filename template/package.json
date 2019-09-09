@@ -6,7 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow check"
   },
   "dependencies": {
     "react": "16.8.1",
@@ -17,6 +18,7 @@
     "@babel/runtime": "^7.5.0",
     "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.1.0",
+    "flow-bin": "^0.107.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "^0.51.1",
     "react-test-renderer": "16.8.1"
